@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
 
-.divheader{
+.divheader {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -13,19 +13,19 @@
   /*padding: 25px 0 25px 0;*/
 }
 
-.divheaderp{
+.divheaderp {
   display: flex;
   width: 28em;
   text-align: center;
   margin-top: 20px;
 }
 
-.divheaderh1{
+.divheaderh1 {
   font-weight: lighter;
   font-size: 35px;
 }
 
-.container-master{
+.container-master {
   padding-top: 20px;
   margin-top: 20px;
   display: flex;
@@ -33,7 +33,7 @@
   justify-content: center;
 }
 
-.container-left{
+.container-left {
   display: flex;
   flex-flow: column wrap;
   align-content: flex-end;
@@ -41,7 +41,7 @@
   width: 33%;
 }
 
-.container{
+.container {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
@@ -49,28 +49,27 @@
   width: 33%;
 }
 
-
-.container-right{
+.container-right {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   width: 33%;
 }
 
-.containerdivbox p{
+.containerdivbox p {
   width: 75%;
 }
 
-.container-leftdivleft{
+.container-leftdivleft {
   justify-content: center;
 }
 
-.container-right__divright{
+.container-right__divright {
   justify-content: center;
   border-radius: 5px;
 }
 
-.target{
+.target {
   -webkit-box-shadow: 5px 4px 15px -3px #000000;
   box-shadow: 5px 4px 15px -3px #000000;
   padding: 30px;
@@ -80,21 +79,21 @@
   flex-flow: column wrap;
 }
 
-.divheaderh2{
+.divheaderh2 {
   color: rgba(180, 170, 170, 0.863);
   font-size: 35px;
 }
 
-.div__header__h2{
+.div__header__h2 {
   color: rgba(180, 170, 170, 0.863);
 }
 
-.image{
- display: flex;
- margin-left: 90px;
+.image {
+  display: flex;
+  margin-left: 90px;
 }
 
-img{
+img {
   height: 85px;
   display: flex;
   width: 80px;
@@ -104,22 +103,22 @@ img{
   border-top: 4px outset blue;
 }
 
-.containerdivboxcenter{
+.containerdivboxcenter {
   border-top: 4px outset red;
 }
 
-.container-rightdivright{
+.container-rightdivright {
   border-top: 4px outset blue;
 }
 
-@media (max-width : 700px) {
-  .container-master{
+@media (max-width: 700px) {
+  .container-master {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin: auto;
   }
-  .target{
+  .target {
     -webkit-box-shadow: 5px 4px 15px -3px #000000;
     box-shadow: 5px 4px 15px -3px #000000;
     padding: 30px;
@@ -128,23 +127,21 @@ img{
     display: flex;
     flex-flow: column wrap;
   }
-  .divheader{
+  .divheader {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     gap: 20px;
     margin: auto;
-    
   }
-  .container-left{
+  .container-left {
     margin: auto;
   }
 
-  .container{
+  .container {
     margin: auto;
   }
-  .container-right{
+  .container-right {
     margin: auto;
   }
-
 }
